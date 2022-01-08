@@ -170,6 +170,7 @@ namespace ScottPlotMicrophoneFFT
             MessageBox.Show(msg);
         }
 
+        
         public double[] FFT(double[] data)
         {
             double[] fft = new double[data.Length];

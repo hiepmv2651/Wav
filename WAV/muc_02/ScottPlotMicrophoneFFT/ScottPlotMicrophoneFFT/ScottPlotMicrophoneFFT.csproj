@@ -99,7 +99,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ScottPlot-2018-09-09\ScottPlot.csproj">
+    <ProjectReference Include="..\ScottPlot\ScottPlot.csproj">
       <Project>{146D9444-8D80-4049-AB17-55AE852F59E3}</Project>
       <Name>ScottPlot</Name>
     </ProjectReference>
