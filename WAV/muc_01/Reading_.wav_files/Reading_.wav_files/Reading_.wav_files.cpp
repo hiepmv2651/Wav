@@ -85,6 +85,7 @@ int main(int argc, char* argv[])
         cout << "Number of bits used        :" << wavHeader.bitsPerSample << endl; // Số lượng bits được sử dụng
         cout << "Number of channels         :" << wavHeader.NumOfChan << endl;     // Số kênh
         cout << "Number of bytes per second :" << wavHeader.bytesPerSec << endl;   // Số byte mỗi giây
+        cout << "Size of the fmt chunk      :" << wavHeader.Subchunk1Size << endl; // Kích thước của đoạn fmt
         cout << "Data length                :" << wavHeader.Subchunk2Size << endl; // Độ dài dữ liệu
         cout << "Audio Format               :" << wavHeader.AudioFormat << endl;   // Định dạng âm thanh
         // Audio format 1=PCM,6=mulaw,7=alaw, 257=IBM Mu-Law, 258=IBM A-Law, 259=ADPCM
